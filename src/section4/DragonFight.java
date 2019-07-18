@@ -54,9 +54,17 @@ public class DragonFight {
 		
 		
 		// 13. If the user's health is less than or equal to 0
-		if (playerhealth<0);
-		JOptionPane.showMessageDialog(null,"you lost and you are now poor");
+		if (playerhealth<0) {
+			JOptionPane.showMessageDialog(null,"you lost and you are now poor");
+		}else if(dragonhealth<0) {
+			JOptionPane.showMessageDialog(null,"you slayed the beast and took the gold, you greedy human");
+			
+		}
+			
+			
+			
 			//-- Tell the user that they lost
+		}
 			
 		
 		// 14. Else if the dragon's health is less than or equal to 0
@@ -69,5 +77,5 @@ public class DragonFight {
 			
 		}
 	}
-}
+
 
