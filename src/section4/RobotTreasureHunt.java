@@ -108,6 +108,12 @@ public class RobotTreasureHunt implements KeyEventDispatcher{
 
 
 	public static void main (String[] args) throws MalformedURLException {
-		new RobotTreasureHunt().go();
+		Object ;
+		new RobotTreasureHunt()).go();
+	}
+
+	private static RobotTreasureHunt Object(RobotTreasureHunt robotTreasureHunt) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
